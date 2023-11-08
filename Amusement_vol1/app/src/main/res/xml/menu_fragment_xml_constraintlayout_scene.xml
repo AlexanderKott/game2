@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:autoTransition="animateToEnd"
+        motion:duration="2000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/cats_game"
+            motion:layout_constraintHorizontal_bias="0.031"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintVertical_bias="1.0"
+            android:layout_marginTop="32dp"
+            motion:layout_constraintBottom_toBottomOf="parent" />
+        <Constraint
+            android:layout_height="402dp"
+            motion:layout_editor_absoluteX="124dp"
+            android:layout_width="331dp"
+            motion:layout_constraintTop_toBottomOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tenetImage"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toEndOf="parent" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="@+id/cats_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:layout_marginEnd="8dp"
+            motion:layout_constraintTop_toBottomOf="@+id/cats_game"
+            android:layout_marginStart="8dp"
+            motion:layout_constraintStart_toStartOf="@+id/cats_game"
+            android:layout_marginTop="31dp"
+            android:id="@+id/musicGame"
+            motion:layout_constraintHorizontal_bias="0.09" />
+        <Constraint
+            android:layout_height="17dp"
+            motion:layout_editor_absoluteX="366dp"
+            android:layout_width="85dp"
+            motion:layout_constraintTop_toBottomOf="@+id/cats_game"
+            motion:layout_editor_absoluteY="846dp" />
+        <Constraint
+            android:layout_width="85dp"
+            android:layout_height="17dp"
+            motion:layout_editor_absoluteX="366dp"
+            motion:layout_constraintTop_toBottomOf="@+id/cats_game"
+            motion:layout_editor_absoluteY="846dp" />
+        <Constraint
+            android:layout_height="300dp"
+            motion:layout_editor_absoluteX="151dp"
+            android:layout_width="300dp"
+            motion:layout_constraintTop_toBottomOf="@+id/cats_game"
+            android:id="@+id/ground" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            motion:layout_editor_absoluteY="476dp"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="84dp"
+            android:layout_width="wrap_content" />
+        <Constraint
+            android:layout_height="392dp"
+            android:layout_width="427dp"
+            android:id="@+id/tenetImage"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="1.0" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintVertical_bias="0.060000002"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/cats_game"
+            android:layout_marginTop="8dp"
+            motion:layout_constraintHorizontal_bias="0.05" />
+        <Constraint
+            android:layout_height="675dp"
+            android:layout_width="681dp"
+            motion:layout_constraintTop_toTopOf="@+id/tenetImage"
+            motion:layout_constraintStart_toStartOf="@+id/tenetImage"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_editor_absoluteX="50dp"
+            motion:layout_editor_absoluteY="1109dp" />
+        <Constraint
+            android:layout_width="681dp"
+            android:layout_height="675dp"
+            motion:layout_constraintTop_toTopOf="@+id/tenetImage"
+            motion:layout_constraintStart_toStartOf="@+id/tenetImage"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_editor_absoluteX="50dp"
+            motion:layout_editor_absoluteY="1109dp"
+            android:layout_marginTop="32dp" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            motion:layout_constraintStart_toStartOf="@+id/funnyMathGame"
+            motion:layout_constraintTop_toBottomOf="@+id/about"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp" />
+        <Constraint />
+        <Constraint
+            android:layout_height="647dp"
+            android:layout_width="734dp"
+            android:id="@+id/ground"
+            motion:layout_constraintTop_toTopOf="@+id/tenetImage"
+            motion:layout_editor_absoluteY="709dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_editor_absoluteX="43dp" />
+        <Constraint
+            android:id="@+id/ground"
+            android:layout_width="734dp"
+            android:layout_height="647dp"
+            motion:layout_constraintTop_toTopOf="@+id/tenetImage"
+            motion:layout_editor_absoluteY="709dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_editor_absoluteX="43dp" />
+        <Constraint
+            android:id="@+id/ground"
+            android:layout_width="734dp"
+            android:layout_height="647dp"
+            motion:layout_constraintTop_toTopOf="@+id/tenetImage"
+            motion:layout_editor_absoluteY="709dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_editor_absoluteX="43dp" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/about"
+            motion:layout_constraintStart_toStartOf="@+id/about"
+            android:id="@+id/musicBtn" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/timerIco"
+        app:layout_constraintTop_toTopOf="@+id/timerIco"
+        app:srcCompat="@drawable/timer" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/timerIco"
+        app:layout_constraintEnd_toEndOf="@+id/dividerTop"
+        app:layout_constraintStart_toStartOf="@+id/dividerTop" />
+
+    <ImageView
+        android:id="@+id/timerIco"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/time"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_infinity" />
+
+    <View
+        android:id="@+id/dividerTop"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerIco" />
+
+    <FrameLayout
+        android:id="@+id/gameArea"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerTop">
+
+        <ImageView
+            android:id="@+id/noteImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:alpha="0"
+            android:translationZ="90dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_note2" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/gameArea"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/timerIco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timerIco" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

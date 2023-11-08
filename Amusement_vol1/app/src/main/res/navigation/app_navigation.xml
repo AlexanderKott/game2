@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/catsGameFragment"
+        android:name="site.kotty_kov.Amusement_vo1.happycat.CatsGameFragment"
+        android:label="@string/happyCatsGame">
+        <argument
+            android:name="gameConfig"
+            app:argType="site.kotty_kov.Amusement_vo1.common.GameConfig" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="site.kotty_kov.Amusement_vo1.common.MenuFragment"
+        android:label="@string/menu">
+        <action
+            android:id="@+id/action_menuFragment_to_levelFragment"
+            app:destination="@id/levelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicGameFragment"
+        android:name="site.kotty_kov.Amusement_vo1.music.MusicGameFragment"
+        android:label="Music Game">
+        <argument
+            android:name="gameConfig"
+            app:argType="site.kotty_kov.Amusement_vo1.common.GameConfig" />
+    </fragment>
+    <fragment
+        android:id="@+id/funnyMathFragment"
+        android:name="site.kotty_kov.Amusement_vo1.funnymath.FunnyMathFragment"
+        android:label="Funny Math">
+        <argument
+            android:name="gameConfig"
+            app:argType="site.kotty_kov.Amusement_vo1.common.GameConfig" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelFragment"
+        android:name="site.kotty_kov.Amusement_vo1.common.levelSetups.LevelFragment"
+        android:label="@string/level" >
+        <argument
+            android:name="gameName"
+            app:argType="java.lang.String" />
+
+        <action
+            android:id="@+id/action_levelFragment_to_catsGameFragment"
+            app:destination="@id/catsGameFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_musicGameFragment"
+            app:destination="@id/musicGameFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_funnyMathFragment"
+            app:destination="@id/funnyMathFragment" />
+    </fragment>
+</navigation>

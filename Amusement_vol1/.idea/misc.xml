@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable-v24/splash_image.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/btn_flat_red_selector.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/custom_radiogroup_divider.xml" value="0.2225" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/gradient_box.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/gradient_box_goal.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/gradient_box_scores.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/gradient_preloader.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/ground.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/leaf_1.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/leaf_2.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/leaf_3.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/mathshape.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/radio_button.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/radio_flat_regular.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/radio_flat_selected.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/rounded_btn.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/rounded_btn2.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/drawable/splash_image.xml" value="0.1" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/MenuFragment.xml" value="0.264" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/ani_image_view.xml" value="0.16510416666666666" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/cats_game.xml" value="0.176" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/dialog.xml" value="0.2015625" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/funny_math.xml" value="0.17552083333333332" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/funny_math_game.xml" value="0.17552083333333332" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/level_fragment.xml" value="0.25" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/menu_fragment.xml" value="0.264" />
+        <entry key="..\:/projects/Amusement_vol1/app/src/main/res/layout/music_game.xml" value="0.176" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

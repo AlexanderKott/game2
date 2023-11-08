@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Парк Развлечений</string>
+    <string name="level">Выбери уровень сложности</string>
+    <string name="select_difficlty_to_see_record">выберите уровень сложности чтобы увидеть ваш рекорд</string>
+    <string name="retry">Повторить?</string>
+    <string name="backToMenu">Обратно</string>
+    <string name="recordTellYourFriends">Новый рекорд! Расскажите друзям!</string>
+    <string name="tryAgain">О - нет, попробуйте еще раз</string>
+    <string name="repaetMe">Повторяй</string>
+    <string name="listenToMe">Слушай</string>
+    <string name="record">рекорд!</string>
+    <string name="recordIsNotSet">Рекорд не установлен</string>
+    <string name="yourRecordIs">Вы набрали %1$d очков</string>
+    <string name="scores">Ваши очки: %1$d \nYour время: %2$sч :  %3$sм : %4$sс  \n\n
+        Результат:%5$s     Старый рекорд: %6$s   </string>
+    <string name="happy_cat">Happy Cats</string>
+    <string name="music_game">Music game</string>
+    <string name="funny_math">Funny math</string>
+    <string name="LetsGo">Поехали!</string>
+    <string name="yourRecord">Ваш рекорд в игре:</string>
+
+    <string-array name="game_goal">
+        <item>Нажмите все добрые рожицы на экране, обходя злые. Каждый уровень имеет лимит точности:  Очень легкий -  нет лимита., Легкий - 90%, средний - 80%, сложный - 40%,  Очень сложный - 10%. Если процент ваших неправильных нажатий больше лимита - ваш результат не засчитается. Режим Спорт - позволяет играть без лимита по времени,но только если вы не ошибаетесь.</item>
+        <item>Повторите музыкальную последовательность из нот в точности как будет показанно</item>
+        <item>Выберите правильную цифру в математическом примере, чтобы получилось правильное решение</item>
+    </string-array>
+
+    <string-array name="level_array">
+        <item>Очень легко</item>
+        <item>легко</item>
+        <item>Обычно</item>
+        <item>Тяжело</item>
+        <item>Очень тяжело</item>
+        <item>Спорт</item>
+    </string-array>
+    <string name="GameGoal">Цель игры:</string>
+    <string name="about_btn">Об авторе</string>
+    <string name="happyCatsGame">Happy Cats Game</string>
+    <string name="menu">Коллекция Игр</string>
+    <string name="aboutText" translatable="false">Copyright (c) 2022  Котиков Александр \n\n
+        Данная лицензия разрешает лицам, получившим копию данного программного обеспечения и сопутствующей документации (в дальнейшем именуемыми «Программное обеспечение»), безвозмездно использовать Программное обеспечение без ограничений для личных целей.
+        \n\nДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ НАРУШЕНИЙ, НО НЕ ОГРАНИЧИВАЯСЬ ИМИ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО КАКИМ-ЛИБО ИСКАМ, ЗА УЩЕРБ ИЛИ ПО ИНЫМ ТРЕБОВАНИЯМ, В ТОМ ЧИСЛЕ, ПРИ ДЕЙСТВИИ КОНТРАКТА, ДЕЛИКТЕ ИЛИ ИНОЙ СИТУАЦИИ, ВОЗНИКШИМ ИЗ-ЗА ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫХ ДЕЙСТВИЙ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
+   \n\n Если вы не согласны, пожалуйста откажитесь от использования данного Программного обеспечения.
+
+        \n\n Программист: Котиков Александр
+        \n Графика:  Марина К.
+        \n Music : Foam Rubber by Alexander Nakarada | https://www.serpentsoundstudios.com
+Music promoted on https://www.chosic.com/free-music/all/
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+    </string>
+    <string name="music_on_off">Music on/off</string>
+</resources>

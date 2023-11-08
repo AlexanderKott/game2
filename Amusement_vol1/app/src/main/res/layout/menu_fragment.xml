@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainLayout"
+      >
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/menu_fragment_xml_constraintlayout_scene">
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/gradient_preloader"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_preloader" />
+
+        <Button
+            android:id="@+id/cats_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_btn"
+            android:focusable="true"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="15dp"
+            android:text="@string/happy_cat"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@null"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <Button
+            android:id="@+id/musicGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="56dp"
+            android:background="@drawable/rounded_btn"
+            android:focusable="true"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="15dp"
+            android:text="@string/music_game"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="@+id/cats_game"
+            app:layout_constraintStart_toStartOf="@+id/cats_game"
+            app:layout_constraintTop_toBottomOf="@+id/cats_game" />
+
+        <Button
+            android:id="@+id/funnyMathGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_btn"
+            android:focusable="true"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="15dp"
+            android:text="@string/funny_math"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="@+id/musicGame"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/musicGame"
+            app:layout_constraintTop_toBottomOf="@+id/musicGame" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_btn2"
+            android:focusable="true"
+            android:paddingStart="25dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="5dp"
+            android:text="@string/about_btn"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/funnyMathGame"
+            app:layout_constraintTop_toBottomOf="@+id/funnyMathGame" />
+
+        <Button
+            android:id="@+id/musicBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_btn2"
+            android:focusable="true"
+            android:paddingStart="25dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="5dp"
+            android:text="@string/music_on_off"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/about"
+            app:layout_constraintTop_toBottomOf="@+id/about" />
+
+
+        <ImageView
+            android:id="@+id/ground"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="15dp"
+            android:paddingTop="90dp"
+            app:srcCompat="@drawable/ground"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+        <ImageView
+            android:id="@+id/tenetImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tent"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="155dp" />
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</RelativeLayout>

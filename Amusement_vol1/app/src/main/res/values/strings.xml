@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Amusement park</string>
+    <string name="backToMenu">"Back "</string>
+    <string name="retry">Retry?</string>
+    <string name="recordTellYourFriends">\"NEW RECORD!! Tell your friends!</string>
+    <string name="tryAgain">Oh no, try again!</string>
+    <string name="scores">Your scores: %1$d \nYour time: %2$sh :  %3$sm : %4$ss  \n\n
+        result:%5$s     Old record: %6$s   </string>
+    <string name="record">record!</string>
+    <string name="yourRecordIs">"You got %1$d scores"</string>
+
+
+    <string-array name="level_array">
+        <item>Very Easy</item>
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+        <item>Very Hard</item>
+        <item>Sport</item>
+    </string-array>
+
+
+    <string-array name="game_goal">
+        <item>Click all the good faces on the screen, bypassing the evil ones. Each level has an accuracy limit: Very easy - no limit., Easy - 90%, Medium - 80%, Hard - 40%, Very hard - 10%. If the percentage of your incorrect clicks is more than the limit, your result will not be counted. Sport mode adds time for you each time you answer correctly. </item>
+        <item>Repeat the musical sequence of notes exactly as shown.</item>
+        <item>Choose the correct number in the math example to get the correct solution</item>
+    </string-array>
+
+    <string name="recordIsNotSet">Record is not set</string>
+    <string name="listenToMe">Listen</string>
+    <string name="repaetMe">Repeat</string>
+    <string name="level">Choose the level of difficulty</string>
+    <string name="select_difficlty_to_see_record">select difficulty level to see your high score</string>
+    <string name="happy_cat">Happy Cats</string>
+    <string name="music_game">Music game</string>
+    <string name="funny_math">Funny math</string>
+    <string name="LetsGo">Let\'s go!</string>
+    <string name="yourRecord">Your record:</string>
+    <string name="GameGoal">Goal:</string>
+    <string name="about_btn">About</string>
+    <string name="happyCatsGame">Happy Cats Game</string>
+    <string name="menu">Games collection</string>
+    <string name="aboutText">Copyright 2022 Alexander Kotikov \n\n
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software") for a personal using.
+
+
+\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  \n\n if you do not agree, please refuse to use this software.
+
+    \n\n
+        Programmer : Alexander Kotikov \n
+        Graphics: Marina K., www.svgrepo.com authors \n
+        \n
+        Music : Foam Rubber by Alexander Nakarada | https://www.serpentsoundstudios.com
+Music promoted on https://www.chosic.com/free-music/all/
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+    </string>
+    <string name="music_on_off">Music on/off</string>
+</resources>
