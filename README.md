@@ -16,3 +16,7 @@ Amusement Park
 
 
 <img src="https://github.com/AlexanderKott/game2/blob/main/images/4.png?raw=true" width="300"/>
+
+<img src="https://github.com/AlexanderKott/game2/blob/main/images/5.png?raw=true" width="300"/>
+
+<img src="https://github.com/AlexanderKott/game2/blob/main/images/6.png?raw=true" width="300"/>
